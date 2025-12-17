@@ -181,6 +181,7 @@ pip install -r requirements.txt
 
 3.2 Levantar la API de Python
 ```bash
+cd service
 python app.py
 ```
 La API quedará escuchando en un puerto local (por ejemplo):
@@ -191,17 +192,6 @@ http://localhost:5002
 
 ⚠️ Este servicio debe permanecer activo mientras se use la API de ingestión.
 
-Verificación
-En el navegador o Postman:
-
-```bash
-GET http://localhost:5000/health
-```
-Respuesta esperada:
-
-```json
-{ "status": "ok" }
-```
 
 **🚀 4. Levantar la API de ingestión (Node.js)**
 Esta API recibe los datos crudos y los envía a la API de Python para su limpieza.
