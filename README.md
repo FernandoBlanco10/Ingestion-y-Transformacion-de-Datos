@@ -23,7 +23,7 @@ El enfoque principal es simular un **flujo real de datos** desde la ingestión h
 ---
 
 ## 🧱 Arquitectura del proyecto
-
+```bash
 data-ingestion-project/
 │
 ├── api-node/ # API REST para ingestión de datos
@@ -42,7 +42,7 @@ data-ingestion-project/
 │ └── ventas_analysis.ipynb # Análisis de datos con Jupyter
 │
 └── README.md
-
+```
 ---
 
 ## 🔄 Flujo de datos
