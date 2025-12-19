@@ -9,7 +9,7 @@ export async function insertVenta(data) {
         // CLIENTE
         let result = await client.query(
             'SELECT id_cliente FROM clientes WHERE email = $1',
-            [data.cliente.email]
+            [data.email]
         );
 
         let id_cliente;
